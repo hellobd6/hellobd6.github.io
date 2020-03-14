@@ -826,11 +826,11 @@ textarea.form-control {
   background: #f95732;
 }
 .top_header {
-  line-height: 50px;
+  line-height: 30px;
   border-bottom: 1px solid  #f1f1f1;
 }
 .top_header .wc_msg {
-  color: #4a4a4a;
+  color: #000000;
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   font-size: 12px;
@@ -1106,7 +1106,7 @@ footer .copyright_line {
   line-height: 25px;
   padding: 25px 0;
   background: #090d20;
-  color: #595f7c;
+  color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
@@ -3312,7 +3312,7 @@ footer .copyright_line {
   color: #fff;
   letter-spacing: 1px;
   line-height: 1;
-  margin-bottom: 30px;
+  margin-bottom: 55px;
 }
 .home_slider .item .slide_caption p {
   color: rgba(255, 255, 255, 0.8);
