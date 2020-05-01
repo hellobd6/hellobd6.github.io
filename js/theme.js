@@ -18,7 +18,7 @@
             margin:0,
             nav:true,
 			autoplay:true,
-           autoplayTimeout:5000, 
+           autoplayTimeout:1000, 
 			dots: false,
             navText: [
               "<span class='lnr lnr-chevron-left'></span>",
