@@ -823,7 +823,10 @@ textarea.form-control {
   line-height: 35px;
 }
 .fluid_header.centered .navbar-collapse .navbar-nav.navbar-right li.login-link a {
-  background: #f95732;
+  background: #267ae9;
+}
+.fluid_header.centered .navbar-collapse .navbar-nav.navbar-right li.login-link:hover a {
+  background: #13468a;
 }
 .top_header {
   line-height: 30px;
