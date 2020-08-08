@@ -3352,11 +3352,11 @@ footer .copyright_line {
   top: calc(50% - 47px);
 }
 .home_slider .owl-controls .owl-nav div {
-  line-height: 94px;
-  width: 34px;
+  line-height: 80px;
+  width: 15px;
   background: #383a4c;
   color: #b5b5b5;
-  font-size: 16px;
+  font-size: 10px;
   text-align: center;
 }
 .home_slider .owl-controls .owl-nav div.owl-prev {
