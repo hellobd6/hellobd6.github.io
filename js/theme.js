@@ -179,6 +179,11 @@
                             'width' : width + '%'
                         })
                     }
+                    if( direction === 'up' ) {
+                        $this.css({
+                            'width' : width + '%'
+                        })
+                    }
                 } , { offset: '100%' } )
             }, 500)
         });
