@@ -404,11 +404,36 @@ p {
   background: #bf2806;
 }
 .btn.btn-green {
-  background: #37bb46;
+  background: #008000;
 }
 .btn.btn-green:hover {
-  background: #206c28;
+  background: #006400;
 }
+
+
+
+.btn.btn-mybuttona {
+  background: #104b99;
+}
+.btn.btn-mybuttona:hover {
+  background: #00008b;
+}
+
+.btn.btn-darkblue {
+  background: #00008b;
+}
+.btn.btn-darkblue:hover {
+  background: #00008b;
+}
+
+.btn.btn-navy {
+  background: #000080;
+}
+.btn.btn-navy:hover {
+  background: #800000;
+}
+
+
 /*Tabs*/
 #exampleTab .exampleTabNav {
   border: none;
@@ -922,7 +947,7 @@ footer .top_footer .shortKnowledge h4 {
   font-family: 'Roboto', sans-serif;
 }
 footer .top_footer .shortKnowledge p {
-  color: #595f7c;
+  color: #C0C0C0;
   line-height: 28px;
 }
 footer .top_footer .shortKnowledge .product h4 {
@@ -942,7 +967,7 @@ footer .top_footer .shortKnowledge .product .product_list li a {
   line-height: 20px;
   font-family: 'Roboto', sans-serif;
   float: left;
-  color: #595f7c;
+  color: #C0C0C0;
   padding: 0;
 }
 footer .top_footer .shortKnowledge .product .product_list li a:before {
@@ -3551,7 +3576,7 @@ footer .copyright_line {
   height: 0;
   line-height: 1;
   text-align: center;
-  background: #267ae9;
+  background: #267ae960;
   color: #fff;
   display: block;
   overflow: hidden;
