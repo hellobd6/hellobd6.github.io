@@ -55,9 +55,9 @@
     <![endif]-->
     
     <!-- Visualime Tracking Code -->
-    <script>
+    <!--<script>
     !function(e,i,n,s,t,c){e[s]||(visualime_site_id="591f6e73",e[s]={},e[s].callsQueue=[],e[s].api=function(){e[s].callsQueue.push(arguments)},t=i.createElement(n),c=i.getElementsByTagName(n)[0],t.async=1,t.src="https://visualime.com/v/visualime-a8b745.min.js",t.id=s+n,c.parentNode.insertBefore(t,c))}(window,document,"script","VISUALIME");
-    </script>
+    </script>-->
     
 
 
@@ -648,10 +648,10 @@
                         <h3>Connect</h3>
                     </div>
                     <div class="contactForm row m0">
-                        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd4lWVElXTUCzpUfV9uge_y65sVXtaYEipeEJEmQaZ5GNNNFQ/formResponse" class="row m0" id="contactForm">
-                            <input type="text" class="form-control" placeholder="Name" name="entry.1441416186" id="name">                    
-                            <input type="email" class="form-control" placeholder="Email" name="entry.1659870701" id="email">
-                            <textarea class="form-control" placeholder="Message" name="entry.75472910" id="message"></textarea>
+                        <form target="_blank" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd4lWVElXTUCzpUfV9uge_y65sVXtaYEipeEJEmQaZ5GNNNFQ/formResponse" method="POST" class="row m0" id="contactForm">
+                            <input type="text" class="form-control" placeholder="Name" name="entry.1441416186" id="name" pattern="[a-zA-Z]+" minlength="3" required>                    
+                            <input type="email" class="form-control" placeholder="Email" name="entry.1659870701" id="email" pattern=".+@gmail\.com|.+@yahoo\.com|.+@outlook\.com|.+@hotmail\.com" minlength="11" required>
+                            <textarea class="form-control" placeholder="Message" name="entry.75472910" id="message" maxlength="9000" required></textarea>
                             <input type="submit" value="send message" class="btn btn-primary">                        
                         </form>
                         <div id="success">Your message successfully sent!</div>

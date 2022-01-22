@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TechzBay IT Solutions</title>
-    
+
     <!--Favicons--->
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -63,17 +63,17 @@
 
 
 
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/5ea8643c35bcbb0c9ab58814/default';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5ea8643c35bcbb0c9ab58814/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
     </script>
     <!--End of Tawk.to Script-->
 
@@ -212,7 +212,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false">pages</a>
                         <ul class="dropdown-menu"> <li><a href="about-us.html">about us</a></li>
- <li><a href="pricing.html">Pricing</a></li> 
+                            <li><a href="pricing.html">Pricing</a></li> 
                             <li><a href="faqs.html">faqs</a></li>                            
                             <li><a href="our-team.html">our team</a></li>
                             <li><a href="portfolio.html">portfolio</a></li>
@@ -640,11 +640,22 @@
                         <h3>Connect</h3>
                     </div>
                     <div class="contactForm row m0">
-                        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd4lWVElXTUCzpUfV9uge_y65sVXtaYEipeEJEmQaZ5GNNNFQ/formResponse" class="row m0" id="contactForm">
-                            <input type="text" class="form-control" placeholder="Name" name="entry.1441416186" id="name">                    
-                            <input type="email" class="form-control" placeholder="Email" name="entry.1659870701" id="email">
-                            <textarea class="form-control" placeholder="Message" name="entry.75472910" id="message"></textarea>
+                        <form target="_blank" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd4lWVElXTUCzpUfV9uge_y65sVXtaYEipeEJEmQaZ5GNNNFQ/formResponse" method="POST" class="row m0" id="contactForm">
+                            <input type="text" class="form-control" placeholder="Name" name="entry.1441416186" id="name" pattern="[a-zA-Z]+" minlength="3" required>                    
+                            <input type="email" class="form-control" placeholder="Email" name="entry.1659870701" id="email" pattern=".+@gmail\.com|.+@yahoo\.com|.+@outlook\.com|.+@hotmail\.com" minlength="11" required>
+                            <textarea class="form-control" placeholder="Message" name="entry.75472910" id="message" maxlength="9000" required></textarea>
                             <input type="submit" value="send message" class="btn btn-primary">                        
+                        </form>
+                        <div id="success">Your message successfully sent!</div>
+                        <div id="error">Sorry, there must be something wrong!! Please try again.</div>
+                    </div>
+                    <div class="contactForm row m0">
+                        <form target="_blank" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd4lWVElXTUCzpUfV9uge_y65sVXtaYEipeEJEmQaZ5GNNNFQ/formResponse" method="POST" class="row m0" id="contactForm">
+                            <input type="text" class="form-control" placeholder="Name" name="entry.1441416186" id="name" pattern="[a-zA-Z]+" minlength="3" required>                    
+                            <input type="email" class="form-control" placeholder="Email" name="entry.1659870701" id="email" pattern=".+@gmail\.com|.+@yahoo\.com|.+@outlook\.com|.+@hotmail\.com" minlength="11" required>
+                            <textarea class="form-control" placeholder="Message" name="entry.75472910" id="message" maxlength="9000" required></textarea>
+                            <!--<a href="http://google.com"> <input type="submit" value="send message" class="btn btn-primary"> </a>-->
+                            <input type="submit" value="send message" class="btn btn-primary">
                         </form>
                         <div id="success">Your message successfully sent!</div>
                         <div id="error">Sorry, there must be something wrong!! Please try again.</div>
@@ -754,7 +765,6 @@
     
     <!--Theme JS-->
     <script src="js/theme.js"></script>
-
 
 
 
