@@ -386,7 +386,7 @@ p {
   color: #fff;
 }
 .btn.btn-primary {
-  background: #267ae9;
+  background: #2169C7;
 }
 .btn.btn-primary:hover {
   background: #104b99;
@@ -904,7 +904,7 @@ footer {
   background: #0c112a;
 }
 footer .top_footer .quick_contact {
-  background: #267ae9;
+  background: #216AC9;
   padding: 17px 0;
   margin-bottom: 76px;
 }
@@ -913,7 +913,7 @@ footer .top_footer .quick_contact .nav li {
   text-align: center;
 }
 footer .top_footer .quick_contact .nav li + li {
-  border-left: 1px solid #3f8df3;
+  border-left: 1px solid #216AC9;
   margin: 0;
 }
 footer .top_footer .quick_contact .nav li a {
@@ -932,7 +932,7 @@ footer .top_footer .quick_contact .nav li a i {
   vertical-align: sub;
 }
 footer .top_footer .quick_contact .nav li a:hover {
-  background: #267ae9;
+  background: #216AC9;
   color: #0c112a;
 }
 footer .top_footer .shortKnowledge {
@@ -1232,7 +1232,7 @@ footer .copyright_line {
   top: 170px;
   left: 231px;
   border-radius: 100%;
-  background: #42b6ff;
+  background: #2169C7;
   width: 119px;
   height: 119px;
   text-align: center;
@@ -1329,7 +1329,7 @@ footer .copyright_line {
   top: 19px;
   left: 282px;
   border-radius: 100%;
-  background: #42b6ff;
+  background: #2169C7;
   width: 119px;
   height: 119px;
   text-align: center;
@@ -3086,7 +3086,7 @@ footer .copyright_line {
   margin-top: 30px;
 }
 .contact_content .form_row .detail_address .media + .media .media-left i {
-  background: #42b6ff;
+  background: #008000;
 }
 .contact_content .form_row .detail_address .media + .media + .media {
   margin-top: 30px;
@@ -3101,7 +3101,7 @@ footer .copyright_line {
   width: 80px;
   height: 80px;
   line-height: 75px;
-  background: #267ae9;
+  background: #2169C7;
   text-align: center;
   font-size: 24px;
   color: #fff;
