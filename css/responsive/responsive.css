@@ -1526,6 +1526,10 @@ This files contents are outlined below.
     bottom: 0;
     padding-left: 50px;
   }
+  .home_slider .item .slide_caption h2 {
+    font-weight: bold;
+    text-shadow: 0 0 7px black,0 0 7px black;
+  }
 }
 @media (max-width: 1499px) {
   .home_slider.home_slider2 .item .slide_caption .sTexts {
@@ -1712,19 +1716,36 @@ This files contents are outlined below.
     top: calc(50% - 40px);
   }
   .home_slider .item .slide_caption h2 {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 0 7px black,0 0 7px black;
   }
   .home_slider .item .slide_caption p {
     display: none;
   }
   .home_slider .item .slide_caption .btn {
     float: none;
-    line-height: 30px;
-    padding: 0 20px;
+    line-height: 22px;
+    padding: 0 10px;
+    font-size: 12px
   }
   .home_slider .item .slide_caption .btn + .pkg_price {
     display: none;
+  }
+  .home_slider .item img {
+    height: auto;
+    width: 150% !important;
+    
+    float: right;
+    clear: right;
+    left: 20px!important;
+    
+  }
+  .home_slider .item {
+    height: auto;
+    
   }
 }
 @media (max-width: 364px) {
