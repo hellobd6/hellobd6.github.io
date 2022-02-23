@@ -1527,7 +1527,7 @@ This files contents are outlined below.
     padding-left: 50px;
   }
   .home_slider .item .slide_caption h2 {
-    font-weight: bold;
+    font-weight: 300;
     text-shadow: 0 0 7px black,0 0 7px black;
   }
 }
