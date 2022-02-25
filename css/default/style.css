@@ -661,6 +661,7 @@ textarea.form-control {
   background-color: #fff;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
+  font-weight: bold;
 }
 .fluid_header .navbar-nav.navbar-right li a:hover,
 .fluid_header .navbar-nav.navbar-right li a:focus {
