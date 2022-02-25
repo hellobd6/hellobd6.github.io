@@ -1747,6 +1747,10 @@ This files contents are outlined below.
     height: auto;
     
   }
+  .top_header .nav li:nth-child(2) {
+    display: none;
+  
+  }
 }
 @media (max-width: 364px) {
   #home_slider3 .carousel-inner .item .carousel-caption .container .media .media-body .btn {

@@ -906,7 +906,7 @@ footer {
 }
 footer .top_footer .quick_contact {
   background: #216AC9;
-  padding: 17px 0;
+  padding: 5px 0;
   margin-bottom: 76px;
 }
 footer .top_footer .quick_contact .nav li {
@@ -927,9 +927,9 @@ footer .top_footer .quick_contact .nav li a {
 }
 footer .top_footer .quick_contact .nav li a i {
   font-size: 30px;
-  margin-right: 20px;
+  margin-right: 10px;
   line-height: 50px;
-  display: inline-block;
+  display: inline;
   vertical-align: sub;
 }
 footer .top_footer .quick_contact .nav li a:hover {
