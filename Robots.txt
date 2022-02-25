@@ -8,6 +8,7 @@ Disallow: /AA/
 Disallow: /css/
 Disallow: /FAQ/
 Disallow: /favicon/
+Disallow: /faviconold/
 Disallow: /fonts/
 Disallow: /images/
 Disallow: /js/
