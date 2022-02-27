@@ -13,22 +13,17 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://techzbay.com/index.html</loc>
+  <loc>https://techzbay.com/Services</loc>
   <lastmod>2022-02-21T08:47:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://techzbay.com/Services.html</loc>
+  <loc>https://techzbay.com/portfolio</loc>
   <lastmod>2022-02-21T08:47:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://techzbay.com/portfolio.html</loc>
-  <lastmod>2022-02-21T08:47:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://techzbay.com/contact.html</loc>
+  <loc>https://techzbay.com/contact</loc>
   <lastmod>2022-02-21T08:47:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
