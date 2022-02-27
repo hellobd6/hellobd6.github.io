@@ -1,0 +1,71 @@
+
+
+<head>
+    <link rel="stylesheet" href="v3style.css">
+
+
+
+
+
+
+    <script src="v3theme.js"></script>
+</body>
+
+
+
+
+
+
+
+
+<html>
+<head>
+    <link rel="stylesheet" href="v3style.css">
+
+
+
+       
+</head>
+
+
+
+
+
+
+
+<body>
+
+
+
+
+
+    <script src="v3theme.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.codinglabweb.com/2020/11/responsive-login-form-using-only-html.html
+
+
+
+
+
+You can use jquery load for that.
+
+<script type="text/javascript">
+$(document).ready(function(e) {
+    $('#header').load('name.html',function(){alert('loaded')});
+});
+</script>
+Don't forget to include jquery library befor above code.
