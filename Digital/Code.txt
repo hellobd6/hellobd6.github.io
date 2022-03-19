@@ -1,0 +1,44 @@
+    <!--https://gallabox.com/whatsapp-chat-button-->
+    <script>
+        (function (w, d, s, u) {
+        w.gbwawc = {
+        url: u,
+        options: {
+                waId: "+880 1681269888",
+                siteName: "Digital Hub",
+                siteTag: "Usually reply in 4 minutes",
+                siteLogo: "https://waw.gallabox.com/chatbotavatars/2.png",
+                widgetPosition: "RIGHT",
+                triggerMessage: "",
+                welcomeMessage: "Hey! how can I help you today?",
+                brandColor: "#25D366",
+                messageText: "I am looking for",
+                replyOptions: ['Netflix','Amazon prime','VPN'],
+            },
+        };
+        var h = d.getElementsByTagName(s)[0],
+        j = d.createElement(s);
+        j.async = true;
+        j.src = u + "/whatsapp-widget.min.js?_=" + Math.random();
+        h.parentNode.insertBefore(j, h);
+        })(window, document, "script", "https://waw.gallabox.com");
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
