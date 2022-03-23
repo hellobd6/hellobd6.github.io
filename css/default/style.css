@@ -3741,3 +3741,25 @@ footer .copyright_line {
 
 
 /*----------------------------------------------------------------*/
+
+
+
+#welcomespin {
+  color:black;
+}
+#welcomespin:after {
+  content:"";
+  animation: welcomespin 15s linear infinite;
+}
+@keyframes welcomespin {
+  0% { content:"Welcome to TechzBay IT Solutions";}
+  50% { content: "Welcome to TechzBay IT Solutions"; }
+  75% { content: "Welcome to TechzBay IT Solutions"; }
+  100% { content:"Welcome to TechzBay IT Solutions";}
+}
+
+/*-----------------Latest News: Free Domain Package available now!---------------------*/
+/*----------------------------------------------------------------*/
+/*-----------------Latest News: We moved from MaxRanker.com-----------------------*/
+
+
