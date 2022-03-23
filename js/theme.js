@@ -206,7 +206,13 @@
                 return line_height + 'px'
             })
         })
+
+        /*--Disable Right Click-------------------------------*/
+        $(document).bind("contextmenu",function(e){
+            return false;
+              });
         
     })
     
 })(jQuery)
+
