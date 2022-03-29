@@ -211,6 +211,14 @@
         $(document).bind("contextmenu",function(e){
             return false;
               });
+
+        /*--Disable Copy paste drag drop in input field-------------------------------*/
+        $('#message').on('copy paste cut dragstart drop', function(e) {
+                e.preventDefault();
+        });
+
+
+
         
     })
     
