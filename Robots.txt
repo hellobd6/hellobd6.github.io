@@ -14,6 +14,7 @@ Disallow: /images/
 Disallow: /js/
 Disallow: /less/
 Disallow: /vendors/
+Disallow: /nono/
 
 Disallow: /404.html/
 Disallow: /about-us.html/
