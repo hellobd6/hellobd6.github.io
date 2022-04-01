@@ -1,0 +1,57 @@
+User-agent: *
+Disallow: /example-page/
+Disallow: /cgi-bin/
+Disallow: /cdn-cgi/
+
+Disallow: /#/
+Disallow: /AA/
+Disallow: /css/
+Disallow: /FAQ/
+Disallow: /favicon/
+Disallow: /faviconold/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /js/
+Disallow: /less/
+Disallow: /vendors/
+Disallow: /nonono/
+
+Disallow: /404.html/
+Disallow: /about-us.html/
+Disallow: /blog.html/
+Disallow: /contact_Back.html/
+Disallow: /contact_process.php/
+Disallow: /contact2.html/
+Disallow: /debug.log/
+Disallow: /domain-transfer.html/
+Disallow: /faqs.html/
+Disallow: /features.html/
+Disallow: /hosting-dedicated.html/
+Disallow: /hosting-reseller.html/
+Disallow: /hosting-shared.html/
+Disallow: /index_Menu_Back_only.html	/
+Disallow: /index2.html/
+Disallow: /index3.html/
+Disallow: /index4.html/
+Disallow: /index555.html/
+Disallow: /landingpage1.html/
+Disallow: /landingpage2.html/
+Disallow: /landingpage3.html/
+Disallow: /lazysizes.min.js/
+Disallow: /no.htaccess.txt/
+Disallow: /our-team.html/
+Disallow: /portfolio2.html/
+Disallow: /prepros.cfg/
+Disallow: /pricing.html/
+Disallow: /shortcode.html/
+Disallow: /single.html/
+
+
+User-agent: Googlebot
+Disallow: /no/
+
+User-agent: Googlebot-Image
+Disallow: /
+
+Crawl-delay: 5
+Sitemap: https://techzbay.com/sitemap.xml
