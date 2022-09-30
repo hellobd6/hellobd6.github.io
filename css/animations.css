@@ -1124,3 +1124,54 @@ stretchRight
 		-webkit-transform: scaleX(1);
 	}		
 }
+
+
+
+/*
+==============================================
+More by me
+==============================================
+https://codepen.io/nelledejones/pen/gOOPWrK
+==============================================
+*/
+
+.pulse2 {
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+@keyframes pulse2 {
+  from { transform: scale(0.8); }
+  to { transform: scale(1.2); }
+}
+
+
+.flash2 {
+  animation: flash 500ms ease infinite alternate;
+}
+@keyframes flash2 {
+	from { opacity: 1; }	
+	to { opacity: 0; }
+}
+
+
+.grow {
+  animation: grow 2s ease infinite;
+}
+@keyframes grow {
+  from { transform: scale(0); }
+  to { transform: scale(1); }
+}
+
+
+.grow2 {
+  animation: grow 2s ease infinite;
+  -webkit-animation: grow 2s ease infinite;
+}
+@keyframes grow2 {
+  from { transform: scale(0); }
+  to { transform: scale(1); }
+}
+@-webkit-keyframes grow2 {
+  from { transform: scale(0); }
+  to { transform: scale(1); }
+}
+

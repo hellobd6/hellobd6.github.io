@@ -3744,17 +3744,41 @@ footer .copyright_line {
 
 
 
+.blink{
+  animation: blink .5s linear infinite;
+}
+@keyframes blink{
+0%{opacity: 1;}
+50%{opacity: 1;}
+100%{opacity: 0;}
+}
+
+.blink2{
+  animation: blink2 .9s linear infinite;
+}
+@keyframes blink2{
+0%{opacity: 0;}
+20%{opacity: 0;}
+50%{opacity: 1;}
+100%{opacity: 1;}
+}
+
+
+
+
+
 #welcomespin {
   color:black;
 }
 #welcomespin:after {
   content:"";
-  animation: welcomespin 15s linear infinite;
+  animation: welcomespin 10s linear infinite;
 }
 @keyframes welcomespin {
-  0% { content:"Welcome to TechzBay IT Solutions";}
-  50% { content: "Welcome to TechzBay IT Solutions"; }
-  75% { content: "Welcome to TechzBay IT Solutions"; }
+  0% { content:"Welcome ";}
+  2% { content:"Welcome to ";}
+  4% { content: "Welcome to TechzBay ";}
+  6% { content: "Welcome to TechzBay IT Solutions";}
   100% { content:"Welcome to TechzBay IT Solutions";}
 }
 
