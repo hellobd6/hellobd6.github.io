@@ -45,6 +45,8 @@ Disallow: /prepros.cfg/
 Disallow: /pricing.html/
 Disallow: /shortcode.html/
 Disallow: /single.html/
+Disallow: /faqs.html/
+
 
 
 User-agent: Googlebot
