@@ -452,7 +452,10 @@
     <!--Theme JS-->
     <script src="js/theme.js"></script>
 
-
+    <!--Prevent close this tab-->
+    <script>
+        window.onbeforeunload = function() { return “Close tab(s)?”; }
+    </script>
 
 
 
